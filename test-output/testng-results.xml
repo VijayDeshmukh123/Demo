@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T06:15:19Z" name="LEAP Test-Automation-DBS-NETBANKING" finished-at="2023-12-26T06:16:03Z" duration-ms="43489">
+    <groups>
+      <group name="web">
+        <method signature="EndtoEndProposerSame.CompletesameGMSA(java.util.HashMap)[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" name="CompletesameGMSA" class="com.absli.testcases.EndtoEndProposerSame"/>
+      </group> <!-- web -->
+    </groups>
+    <test started-at="2023-12-26T06:15:19Z" name="Suite Test1" finished-at="2023-12-26T06:16:03Z" duration-ms="43489">
+      <class name="com.absli.testcases.EndtoEndProposerSame">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" started-at="2023-12-26T11:45:19Z" name="setExtent" finished-at="2023-12-26T11:45:19Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" started-at="2023-12-26T11:45:19Z" name="preSetup" finished-at="2023-12-26T11:45:58Z" duration-ms="39167" status="FAIL">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 3 out of bounds for length 3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at com.absli.APIData.ApiData.CreatLead_AxisBank(ApiData.java:85)
+	at com.absli.base.TestBase.initialization(TestBase.java:134)
+	at com.absli.base.TestBase.preSetup(TestBase.java:154)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" started-at="2023-12-26T11:46:03Z" name="setUp" finished-at="2023-12-26T11:46:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CompletesameGMSA(java.util.HashMap)[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" started-at="2023-12-26T11:46:03Z" name="CompletesameGMSA" description="Proposer Same GMS Scenario" data-provider="EndtoEndProposerSame" finished-at="2023-12-26T11:46:03Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 3 out of bounds for length 3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at com.absli.APIData.ApiData.CreatLead_AxisBank(ApiData.java:85)
+	at com.absli.base.TestBase.initialization(TestBase.java:134)
+	at com.absli.base.TestBase.preSetup(TestBase.java:154)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletesameGMSA -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.absli.testcases.EndtoEndProposerSame@2b43529a]" started-at="2023-12-26T11:46:03Z" name="endReport" finished-at="2023-12-26T11:46:03Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.absli.testcases.EndtoEndProposerSame -->
+    </test> <!-- Suite Test1 -->
+  </suite> <!-- LEAP Test-Automation-DBS-NETBANKING -->
+</testng-results>

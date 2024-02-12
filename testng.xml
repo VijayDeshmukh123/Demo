@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="LEAP Test-Automation-DBS-NETBANKING"  parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="com.absli.Listner.CustomListner"/>
+    </listeners>
+
+
+
+     
+       
+           <test name="Suite Test1">
+            <classes>
+                <class name="com.absli.testcases.EndtoEndProposerSame">
+                    <methods>
+                        <include name="CompletesameGMSA"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+
+        
+
+</suite>
